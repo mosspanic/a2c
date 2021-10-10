@@ -18,6 +18,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat.getSystemService
 import com.on.a2c.R
 
+
 class MainAdapter(private val users: ArrayList<User>) : RecyclerView.Adapter<MainAdapter.DataViewHolder>() {
 
     var userCLickListener: UserCLickListener? = null
@@ -51,6 +52,13 @@ class MainAdapter(private val users: ArrayList<User>) : RecyclerView.Adapter<Mai
                     userCLickListener?.onClick(user.id);    val usr=user.id; println("####### 2 нажал на строку в списке id- $usr")
 
                     Toast.makeText(context, user.name, Toast.LENGTH_SHORT).show()
+
+
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.container, UserFragment.newInstance())
+                        .commitNow()
+
+                    }
                 }
             }
         }

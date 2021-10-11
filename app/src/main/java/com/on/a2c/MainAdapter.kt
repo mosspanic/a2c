@@ -54,15 +54,13 @@ class MainAdapter(private val users: ArrayList<User>) : RecyclerView.Adapter<Mai
                     Toast.makeText(context, user.name, Toast.LENGTH_SHORT).show()
 
 
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.container, UserFragment.newInstance())
-                        .commitNow()
+                    //supportFragmentManager.beginTransaction().replace(R.id.container, UserFragment.newInstance()).commitNow()
 
                     }
                 }
             }
         }
-    }
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DataViewHolder =
         DataViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false))

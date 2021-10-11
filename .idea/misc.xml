@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/activity_main.xml" value="0.33645833333333336" />
+        <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/fragment_user.xml" value="0.559375" />
         <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/item_layout.xml" value="0.33645833333333336" />
         <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/main_activity.xml" value="0.33645833333333336" />
         <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/main_fragment.xml" value="0.33645833333333336" />
-        <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/user_fragment.xml" value="0.33645833333333336" />
+        <entry key="..\:/EMULATOR/android/=projectW/a2c/app/src/main/res/layout/user_fragment.xml" value="0.67" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.190625" />
       </map>
     </option>
